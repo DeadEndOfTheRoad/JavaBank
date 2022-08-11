@@ -1,0 +1,370 @@
+Index: .idea/uiDesigner.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/uiDesigner.xml b/.idea/uiDesigner.xml
+new file mode 100644
+--- /dev/null	(revision 08357ee811312792e215fd5d14bf5250e1afa646)
++++ b/.idea/uiDesigner.xml	(revision 08357ee811312792e215fd5d14bf5250e1afa646)
+@@ -0,0 +1,124 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<project version="4">
++  <component name="Palette2">
++    <group name="Swing">
++      <item class="com.intellij.uiDesigner.HSpacer" tooltip-text="Horizontal Spacer" icon="/com/intellij/uiDesigner/icons/hspacer.svg" removable="false" auto-create-binding="false" can-attach-label="false">
++        <default-constraints vsize-policy="1" hsize-policy="6" anchor="0" fill="1" />
++      </item>
++      <item class="com.intellij.uiDesigner.VSpacer" tooltip-text="Vertical Spacer" icon="/com/intellij/uiDesigner/icons/vspacer.svg" removable="false" auto-create-binding="false" can-attach-label="false">
++        <default-constraints vsize-policy="6" hsize-policy="1" anchor="0" fill="2" />
++      </item>
++      <item class="javax.swing.JPanel" icon="/com/intellij/uiDesigner/icons/panel.svg" removable="false" auto-create-binding="false" can-attach-label="false">
++        <default-constraints vsize-policy="3" hsize-policy="3" anchor="0" fill="3" />
++      </item>
++      <item class="javax.swing.JScrollPane" icon="/com/intellij/uiDesigner/icons/scrollPane.svg" removable="false" auto-create-binding="false" can-attach-label="true">
++        <default-constraints vsize-policy="7" hsize-policy="7" anchor="0" fill="3" />
++      </item>
++      <item class="javax.swing.JButton" icon="/com/intellij/uiDesigner/icons/button.svg" removable="false" auto-create-binding="true" can-attach-label="false">
++        <default-constraints vsize-policy="0" hsize-policy="3" anchor="0" fill="1" />
++        <initial-values>
++          <property name="text" value="Button" />
++        </initial-values>
++      </item>
++      <item class="javax.swing.JRadioButton" icon="/com/intellij/uiDesigner/icons/radioButton.svg" removable="false" auto-create-binding="true" can-attach-label="false">
++        <default-constraints vsize-policy="0" hsize-policy="3" anchor="8" fill="0" />
++        <initial-values>
++          <property name="text" value="RadioButton" />
++        </initial-values>
++      </item>
++      <item class="javax.swing.JCheckBox" icon="/com/intellij/uiDesigner/icons/checkBox.svg" removable="false" auto-create-binding="true" can-attach-label="false">
++        <default-constraints vsize-policy="0" hsize-policy="3" anchor="8" fill="0" />
++        <initial-values>
++          <property name="text" value="CheckBox" />
++        </initial-values>
++      </item>
++      <item class="javax.swing.JLabel" icon="/com/intellij/uiDesigner/icons/label.svg" removable="false" auto-create-binding="false" can-attach-label="false">
++        <default-constraints vsize-policy="0" hsize-policy="0" anchor="8" fill="0" />
++        <initial-values>
++          <property name="text" value="Label" />
++        </initial-values>
++      </item>
++      <item class="javax.swing.JTextField" icon="/com/intellij/uiDesigner/icons/textField.svg" removable="false" auto-create-binding="true" can-attach-label="true">
++        <default-constraints vsize-policy="0" hsize-policy="6" anchor="8" fill="1">
++          <preferred-size width="150" height="-1" />
++        </default-constraints>
++      </item>
++      <item class="javax.swing.JPasswordField" icon="/com/intellij/uiDesigner/icons/passwordField.svg" removable="false" auto-create-binding="true" can-attach-label="true">
++        <default-constraints vsize-policy="0" hsize-policy="6" anchor="8" fill="1">
++          <preferred-size width="150" height="-1" />
++        </default-constraints>
++      </item>
++      <item class="javax.swing.JFormattedTextField" icon="/com/intellij/uiDesigner/icons/formattedTextField.svg" removable="false" auto-create-binding="true" can-attach-label="true">
++        <default-constraints vsize-policy="0" hsize-policy="6" anchor="8" fill="1">
++          <preferred-size width="150" height="-1" />
++        </default-constraints>
++      </item>
++      <item class="javax.swing.JTextArea" icon="/com/intellij/uiDesigner/icons/textArea.svg" removable="false" auto-create-binding="true" can-attach-label="true">
++        <default-constraints vsize-policy="6" hsize-policy="6" anchor="0" fill="3">
++          <preferred-size width="150" height="50" />
++        </default-constraints>
++      </item>
++      <item class="javax.swing.JTextPane" icon="/com/intellij/uiDesigner/icons/textPane.svg" removable="false" auto-create-binding="true" can-attach-label="true">
++        <default-constraints vsize-policy="6" hsize-policy="6" anchor="0" fill="3">
++          <preferred-size width="150" height="50" />
++        </default-constraints>
++      </item>
++      <item class="javax.swing.JEditorPane" icon="/com/intellij/uiDesigner/icons/editorPane.svg" removable="false" auto-create-binding="true" can-attach-label="true">
++        <default-constraints vsize-policy="6" hsize-policy="6" anchor="0" fill="3">
++          <preferred-size width="150" height="50" />
++        </default-constraints>
++      </item>
++      <item class="javax.swing.JComboBox" icon="/com/intellij/uiDesigner/icons/comboBox.svg" removable="false" auto-create-binding="true" can-attach-label="true">
++        <default-constraints vsize-policy="0" hsize-policy="2" anchor="8" fill="1" />
++      </item>
++      <item class="javax.swing.JTable" icon="/com/intellij/uiDesigner/icons/table.svg" removable="false" auto-create-binding="true" can-attach-label="false">
++        <default-constraints vsize-policy="6" hsize-policy="6" anchor="0" fill="3">
++          <preferred-size width="150" height="50" />
++        </default-constraints>
++      </item>
++      <item class="javax.swing.JList" icon="/com/intellij/uiDesigner/icons/list.svg" removable="false" auto-create-binding="true" can-attach-label="false">
++        <default-constraints vsize-policy="6" hsize-policy="2" anchor="0" fill="3">
++          <preferred-size width="150" height="50" />
++        </default-constraints>
++      </item>
++      <item class="javax.swing.JTree" icon="/com/intellij/uiDesigner/icons/tree.svg" removable="false" auto-create-binding="true" can-attach-label="false">
++        <default-constraints vsize-policy="6" hsize-policy="6" anchor="0" fill="3">
++          <preferred-size width="150" height="50" />
++        </default-constraints>
++      </item>
++      <item class="javax.swing.JTabbedPane" icon="/com/intellij/uiDesigner/icons/tabbedPane.svg" removable="false" auto-create-binding="true" can-attach-label="false">
++        <default-constraints vsize-policy="3" hsize-policy="3" anchor="0" fill="3">
++          <preferred-size width="200" height="200" />
++        </default-constraints>
++      </item>
++      <item class="javax.swing.JSplitPane" icon="/com/intellij/uiDesigner/icons/splitPane.svg" removable="false" auto-create-binding="false" can-attach-label="false">
++        <default-constraints vsize-policy="3" hsize-policy="3" anchor="0" fill="3">
++          <preferred-size width="200" height="200" />
++        </default-constraints>
++      </item>
++      <item class="javax.swing.JSpinner" icon="/com/intellij/uiDesigner/icons/spinner.svg" removable="false" auto-create-binding="true" can-attach-label="true">
++        <default-constraints vsize-policy="0" hsize-policy="6" anchor="8" fill="1" />
++      </item>
++      <item class="javax.swing.JSlider" icon="/com/intellij/uiDesigner/icons/slider.svg" removable="false" auto-create-binding="true" can-attach-label="false">
++        <default-constraints vsize-policy="0" hsize-policy="6" anchor="8" fill="1" />
++      </item>
++      <item class="javax.swing.JSeparator" icon="/com/intellij/uiDesigner/icons/separator.svg" removable="false" auto-create-binding="false" can-attach-label="false">
++        <default-constraints vsize-policy="6" hsize-policy="6" anchor="0" fill="3" />
++      </item>
++      <item class="javax.swing.JProgressBar" icon="/com/intellij/uiDesigner/icons/progressbar.svg" removable="false" auto-create-binding="true" can-attach-label="false">
++        <default-constraints vsize-policy="0" hsize-policy="6" anchor="0" fill="1" />
++      </item>
++      <item class="javax.swing.JToolBar" icon="/com/intellij/uiDesigner/icons/toolbar.svg" removable="false" auto-create-binding="false" can-attach-label="false">
++        <default-constraints vsize-policy="0" hsize-policy="6" anchor="0" fill="1">
++          <preferred-size width="-1" height="20" />
++        </default-constraints>
++      </item>
++      <item class="javax.swing.JToolBar$Separator" icon="/com/intellij/uiDesigner/icons/toolbarSeparator.svg" removable="false" auto-create-binding="false" can-attach-label="false">
++        <default-constraints vsize-policy="0" hsize-policy="0" anchor="0" fill="1" />
++      </item>
++      <item class="javax.swing.JScrollBar" icon="/com/intellij/uiDesigner/icons/scrollbar.svg" removable="false" auto-create-binding="true" can-attach-label="false">
++        <default-constraints vsize-policy="6" hsize-policy="0" anchor="0" fill="2" />
++      </item>
++    </group>
++  </component>
++</project>
+\ No newline at end of file
+Index: src/net/princesotry_/Cab.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/net/princesotry_/Cab.java b/src/net/princesotry_/Cab.java
+new file mode 100644
+--- /dev/null	(revision 08357ee811312792e215fd5d14bf5250e1afa646)
++++ b/src/net/princesotry_/Cab.java	(revision 08357ee811312792e215fd5d14bf5250e1afa646)
+@@ -0,0 +1,5 @@
++package net.princesotry_;
++
++public interface Cab {
++
++}
+Index: src/net/princesotry_/Main.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/net/princesotry_/Main.java b/src/net/princesotry_/Main.java
+--- a/src/net/princesotry_/Main.java	(revision 5ec9c8250d4806e74c32ac034bc01c831b21f536)
++++ b/src/net/princesotry_/Main.java	(revision 08357ee811312792e215fd5d14bf5250e1afa646)
+@@ -1,95 +1,16 @@
+ package net.princesotry_;
+ 
+-import net.princesotry_.banking.Bank;
+-import net.princesotry_.banking.Person;
+-
+-import java.util.HashMap;
+-import java.util.Scanner;
++import java.time.LocalDateTime;
++import java.time.format.DateTimeFormatter;
++import java.util.function.Supplier;
+ 
+-public class Main {
++public class Main{
+ 
+-    static Bank javaBank = setBank();
+-    static boolean loggedIn = false;
++    private static final DateTimeFormatter dtf = DateTimeFormatter.ofPattern("yyyy-MM-dd HH:mm:ss");
+ 
+-    public static Scanner scanner = new Scanner(System.in);
+     public static void main(String[] args) {
+-        javaBank.addBotAccounts();
+-
+-        //The program
+-        while(true) {
+-            outputBank(javaBank);
+-            System.out.println("Welcome to the Java Industry Bank!");
+-            askForSignUpOrLogIn(loggedIn);
+-            if(loggedIn) {
+-                //
+-            }
+-        }
+-
+-    }
+-
+-
+-    public static void askForSignUpOrLogIn(boolean loggedIn) {
+-        System.out.println("Would you like to:\na) Log in\nb) Sign up\n\n Please enter either a or b :)");
+-        String choice = scanner.nextLine();
+-        System.out.println((String)choice);
+-        if (validateStringInput(choice, "a", "b")) {
+-            if (choice.equals("a")) {
+-                Bank.logInProcedure();
+-            } else {
+-                Person temporaryPerson = createNewProfile();
+-                askForInitialDeposit(temporaryPerson);
+-                loggedIn = true;
+-            }
+-        } else {
+-            System.out.println("Invalid input, please enter a or b.");
+-            askForSignUpOrLogIn(loggedIn);
+-        }
+-    }
+ 
+ 
+-
+-
+-    public static void askForInitialDeposit(Person person) {
+-        System.out.println("Please enter your initial deposit, minimum deposit is £100.00.");
+-        double deposit = scanner.nextDouble();
+-        scanner.nextLine();
+-        if(deposit >= 100) {
+-            System.out.println("Thank you for choosing JavaBank");
+-            Bank.addProfileAndAccount(javaBank, person, Bank.createNewAccount(deposit));
+-        } else {
+-            System.out.println("Sorry the minimum deposit is £100.00");
+-            askForInitialDeposit(person);
+-        }
+     }
+ 
+-
+-    public static Bank setBank() {
+-        return new Bank(new HashMap<>());
+-
+-    }
+-
+-
+-    public static boolean validateStringInput(String choice, String correctChoice1, String correctChoice2) {
+-        return choice.equals(correctChoice1) || choice.equals(correctChoice2);
+-    }
+-
+-
+-    public static Person createNewProfile() {
+-        System.out.println("Enter your first name");
+-        String firstName = scanner.nextLine();
+-        System.out.println("Enter your middle name");
+-        String middleName = scanner.nextLine();
+-        System.out.println("Enter your last name");
+-        String lastName = scanner.nextLine();
+-        System.out.println("Enter your social security number");
+-        String socialSecurityNumber = scanner.nextLine();
+-
+-       return new Person(firstName, middleName, lastName, socialSecurityNumber);
+-    }
+-
+-    public static void outputBank(Bank bank) {
+-        for (Person person: javaBank.customersAndAccounts.keySet()) {
+-            System.out.println(javaBank.customersAndAccounts.get(person) + " --> " + "insert Key");
+-        }
+-        }
+-    }
++}
+\ No newline at end of file
+Index: src/net/princesotry_/banking/Bank.java
+===================================================================
+diff --git a/src/net/princesotry_/banking/Bank.java b/src/net/princesotry_/banking/Bank.java
+deleted file mode 100644
+--- a/src/net/princesotry_/banking/Bank.java	(revision 5ec9c8250d4806e74c32ac034bc01c831b21f536)
++++ /dev/null	(revision 5ec9c8250d4806e74c32ac034bc01c831b21f536)
+@@ -1,55 +0,0 @@
+-package net.princesotry_.banking;
+-
+-import java.util.Map;
+-import java.util.Scanner;
+-
+-
+-public class Bank {
+-
+-    public static Scanner scanner = new Scanner(System.in);
+-
+-    //Fields
+-    public Map<Person, CheckingAccount> customersAndAccounts;
+-    public static double maximumOverdraftAmount = 100.00;
+-
+-    //Constructor
+-    public Bank(Map<Person, CheckingAccount> customersAndAccounts) {
+-        this.customersAndAccounts = customersAndAccounts;
+-    }
+-
+-    public void addBotAccounts() {
+-        //Initialising Bot Profiles
+-        Person person1 = new Person("Naman", "Kumar", "Goyal", "AB123456C");
+-        Person person2 = new Person("Grim", "Saj", "Defence", "AB123456D");
+-        Person person3 = new Person("Pixie", "Angel", "Mayor", "AB123456E");
+-
+-        //Initialising Bot Accounts
+-        CheckingAccount account1 = new CheckingAccount(200.00);
+-        CheckingAccount account2 = new CheckingAccount(300.00);
+-        CheckingAccount account3 = new CheckingAccount(1000.00);
+-
+-        //Adding them to the Bank
+-        this.customersAndAccounts.put(person1, account1);
+-        this.customersAndAccounts.put(person2, account2);
+-        this.customersAndAccounts.put(person3, account3);
+-    }
+-
+-    public static void addProfileAndAccount(Bank bank, Person person, CheckingAccount account) {
+-        bank.customersAndAccounts.put(person, account);
+-    }
+-
+-    public static CheckingAccount createNewAccount(double deposit) {
+-        return new CheckingAccount(deposit);
+-    }
+-
+-    public static void logInProcedure() {
+-        System.out.println("Please enter your first name");
+-        String inputFirstName = scanner.nextLine();
+-
+-    }
+-
+-    @Override
+-    public String toString() {
+-        return "Bank{" + "customersAndAccounts=" + customersAndAccounts + '}';
+-    }
+-}
+Index: src/net/princesotry_/banking/CheckingAccount.java
+===================================================================
+diff --git a/src/net/princesotry_/banking/CheckingAccount.java b/src/net/princesotry_/banking/CheckingAccount.java
+deleted file mode 100644
+--- a/src/net/princesotry_/banking/CheckingAccount.java	(revision 5ec9c8250d4806e74c32ac034bc01c831b21f536)
++++ /dev/null	(revision 5ec9c8250d4806e74c32ac034bc01c831b21f536)
+@@ -1,16 +0,0 @@
+-package net.princesotry_.banking;
+-
+-public class CheckingAccount {
+-
+-    //Fields
+-    protected double currentDeposit;
+-
+-    //Constructor
+-    protected CheckingAccount(double currentDeposit) {
+-        this.currentDeposit = currentDeposit;
+-    }
+-
+-
+-
+-
+-}
+Index: src/net/princesotry_/banking/Person.java
+===================================================================
+diff --git a/src/net/princesotry_/banking/Person.java b/src/net/princesotry_/banking/Person.java
+deleted file mode 100644
+--- a/src/net/princesotry_/banking/Person.java	(revision 5ec9c8250d4806e74c32ac034bc01c831b21f536)
++++ /dev/null	(revision 5ec9c8250d4806e74c32ac034bc01c831b21f536)
+@@ -1,17 +0,0 @@
+-package net.princesotry_.banking;
+-
+-public class Person {
+-    //Fields
+-    public String firstName;
+-    public String middleName;
+-    public String lastName;
+-    private String socialSecurityNumber;
+-
+-    //Constructor
+-    public Person(String firstName, String middleName, String lastName, String socialSecurityNumber) {
+-        this.firstName = firstName;
+-        this.middleName = middleName;
+-        this.lastName = lastName;
+-        this.socialSecurityNumber = socialSecurityNumber;
+-    }
+-}
